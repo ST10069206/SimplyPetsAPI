@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{7238704F-DD19-4465-A818-0FC298266E7D}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/QuizzesController.cs">
+    <Files>
+      <File FileName="PetAPI.http" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/Quiz.cs" Line="1" Column="1" />
+      <File FileName="Dockerfile" />
+      <File FileName="Models/PetResources.cs" Line="1" Column="1" />
+      <File FileName="Models/Question.cs" Line="1" Column="1" />
+      <File FileName="Models/Vet.cs" Line="1" Column="1" />
+      <File FileName="Controllers/PetResourcesController.cs" Line="1" Column="1" />
+      <File FileName="Data/DataContext.cs" />
+      <File FileName="Controllers/QuestionsController.cs" />
+      <File FileName="Controllers/QuizzesController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/VetsController.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Properties/PublishProfiles/OPSC-PetAPI - Docker.pubxml" />
+      <File FileName="appsettings.Development.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PetAPI" expanded="True">
+            <Node name="PetAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="QuizzesController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PetAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
