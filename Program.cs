@@ -10,10 +10,8 @@ namespace PetAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Set the URL to listen on port 8080
-            builder.WebHost.UseUrls("http://*:8080");
+            builder.WebHost.UseUrls("http://*:8080", "https://*:443");
 
-            // Use Npgsql for the database connection
             builder.Services.AddDbContext<DataContext>(options =>
             {
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -25,7 +23,6 @@ namespace PetAPI
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
