@@ -10,8 +10,6 @@ namespace PetAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            //builder.WebHost.UseUrls("http://*:8080", "https://*:443");
-
             builder.Services.AddDbContext<DataContext>(options =>
             {
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -29,7 +27,7 @@ namespace PetAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
 

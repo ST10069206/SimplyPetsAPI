@@ -1,8 +1,8 @@
 # Use the official ASP.NET Core runtime as the base image for Linux
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 80 
+EXPOSE 443 
 
 # Use the .NET SDK image for Linux to build the app
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
@@ -27,4 +27,8 @@ RUN dotnet publish "./PetAPI.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Health check (optional)
+HEALTHCHECK CMD curl --fail http://localhost:80/health || exit 1
+
 ENTRYPOINT ["dotnet", "PetAPI.dll"]
