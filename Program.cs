@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PetAPI.Data;
 using PetAPI.Models;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace PetAPI
 {
@@ -12,10 +10,10 @@ namespace PetAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Use SQL Server for the database connection
+            // Use Npgsql for the database connection
             builder.Services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
             builder.Services.AddControllers();
