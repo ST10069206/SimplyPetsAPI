@@ -10,7 +10,7 @@ namespace PetAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.WebHost.UseUrls("http://*:8080", "https://*:443");
+            //builder.WebHost.UseUrls("http://*:8080", "https://*:443");
 
             builder.Services.AddDbContext<DataContext>(options =>
             {
