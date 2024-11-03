@@ -4619,11 +4619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shannonjulius/Desktop/PetAPI/PetAPI.csproj",
+      "projectUniqueName": "/Users/shannonjulius/Desktop/Semester 6/OPSC7312/PetAPI/PetAPI.csproj",
       "projectName": "PetAPI",
-      "projectPath": "/Users/shannonjulius/Desktop/PetAPI/PetAPI.csproj",
+      "projectPath": "/Users/shannonjulius/Desktop/Semester 6/OPSC7312/PetAPI/PetAPI.csproj",
       "packagesPath": "/Users/shannonjulius/.nuget/packages/",
-      "outputPath": "/Users/shannonjulius/Desktop/PetAPI/obj/",
+      "outputPath": "/Users/shannonjulius/Desktop/Semester 6/OPSC7312/PetAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shannonjulius/.nuget/NuGet/NuGet.Config"
