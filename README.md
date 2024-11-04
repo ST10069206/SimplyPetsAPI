@@ -2,10 +2,11 @@
 
 ## Function:
 
-  This API stores and retrieves: 
-    1. A list of vet locations and contact details.
-    2. Quizzes on pets.
-    3. Pet resources. 
+  ### This API stores and retrieves: 
+  
+  1. A list of vet locations and contact details.
+  2. Quizzes on pets.
+  3. Pet resources. 
 
 ## Technology used:
 
