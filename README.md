@@ -10,5 +10,5 @@
 
 ## Technology used:
 
-  This was created using Visual Studio to create the Web API. 
-  Render.com was used to host the database as well as the API. 
+  - This was created using Visual Studio to create the Web API.
+  - Render.com was used to host the database as well as the API. 
